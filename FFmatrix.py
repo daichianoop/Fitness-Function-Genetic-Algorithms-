@@ -1,4 +1,5 @@
 # OPTIMIZE : MULTITASK MODE 
+# original code by Anoop Kumar 
 import math
 
 class Cloudlet:
@@ -48,29 +49,31 @@ def calculate_fitness(cloudlet, vm):
 
 #FIX : Feeding the Dataset 
 cloudlets = [
-    Cloudlet(1, 50000, 0, 150, 29),
-    Cloudlet(2, 70000, 0, 250, 46),
-    Cloudlet(3, 30000, 20, 150, 20),
-    Cloudlet(4, 20000, 20, 220, 15),
-    Cloudlet(5, 100000, 40, 400, 70),
-    Cloudlet(6, 80000, 40, 600, 45),
-    Cloudlet(7, 60000, 50, 410, 35),
-    Cloudlet(8, 40000, 60, 300, 26),
-    Cloudlet(9, 150000, 70, 910, 55),
-    Cloudlet(10, 120000, 80, 600, 67),
-    Cloudlet(11, 35000, 40, 390, 30),
-    Cloudlet(12, 25000, 40, 130, 17),
-    Cloudlet(13, 45000, 80, 500, 28),
-    Cloudlet(14, 20000, 80, 200, 25),
-    Cloudlet(15, 60000, 80, 300, 40)
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget5),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget)
 ]
 vms = [
-    VM(1, 500, 0.3),
-    VM(2, 400, 0.25),
-    VM(3, 300, 0.2),
-    VM(4, 200, 0.15),
-    VM(5, 100, 0.1)
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec)
 ]
+
+# for data set contact : anoop2005ak@gmail.com
 
 #TODO : Array to store fitness values for all VMs and cloudlets 
 fitness_matrix = []
