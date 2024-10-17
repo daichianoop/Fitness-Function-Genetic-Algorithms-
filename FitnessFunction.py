@@ -15,21 +15,21 @@ class VM:
         self.cost_per_second = cost_per_second
 
 cloudlets = [
-    Cloudlet(1, 50000, 0, 150, 29),
-    Cloudlet(2, 70000, 0, 250, 46),
-    Cloudlet(3, 30000, 20, 150, 20),
-    Cloudlet(4, 20000, 20, 220, 15),
-    Cloudlet(5, 100000, 40, 400, 70),
-    Cloudlet(6, 80000, 40, 600, 45),
-    Cloudlet(7, 60000, 50, 410, 35),
-    Cloudlet(8, 40000, 60, 300, 26),
-    Cloudlet(9, 150000, 70, 910, 55),
-    Cloudlet(10, 120000, 80, 600, 67),
-    Cloudlet(11, 35000, 40, 390, 30),
-    Cloudlet(12, 25000, 40, 130, 17),
-    Cloudlet(13, 45000, 80, 500, 28),
-    Cloudlet(14, 20000, 80, 200, 25),
-    Cloudlet(15, 60000, 80, 300, 40)
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget),
+    Cloudlet(sr no., task length, arrival time, deadline, budget)
 ]
 
 vms = [
