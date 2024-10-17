@@ -33,11 +33,11 @@ cloudlets = [
 ]
 
 vms = [
-    VM(1, 500, 0.3),
-    VM(2, 400, 0.25),
-    VM(3, 300, 0.2),
-    VM(4, 200, 0.15),
-    VM(5, 100, 0.1)
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec),
+    VM(vm no., MIPS, cost/sec)
 ]
 
 fitness_scores = []
