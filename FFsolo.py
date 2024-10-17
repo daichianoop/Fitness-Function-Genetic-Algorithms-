@@ -1,5 +1,5 @@
 import math
-
+# by Anoop Kumar
 # Deadline Fitness <F1> with <weight factor (a) = 0.7> and <k = 1>
 def calculate_F1(endTime, deadline):
     if endTime <= deadline:
@@ -28,16 +28,18 @@ def calculate_X(endTime, deadline, endCost, budget):
     return round(X,3)
 
 # Assigning Lists of Values
-endTimes = [100, 125, 167, 250, 500]
-deadlines = [150, 150, 150, 150, 150]
-endCosts = [30, 31, 34, 38, 50]
-budgets = [29, 29, 29, 29, 29]
+endTimes = [Your data]
+deadlines = [Your data]
+endCosts = [Your data]
+budgets = [Your data]
+
+#for data set contact : anoop2005ak@gmail.com
 
 # Array to store "X" values
 VM_FitnessValues = []
 
 # Calculating X for each set of values
-for i in range(5):
+for i in range(5): #change the 5 to the no of inputs you give
     X = calculate_X(endTimes[i], deadlines[i], endCosts[i], budgets[i])
     VM_FitnessValues.append((i, X))
 
